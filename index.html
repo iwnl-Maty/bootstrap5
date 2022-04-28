@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Bootstrap 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="bg-primary p-2 text-center">
+        <h1 class="text-white text-uppercase display 3">
+            Bootstrap 5
+        </h1>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-dark|light bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/iwnl-Maty" target="_blank">Github</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Škola</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item"
+                            href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=637849351325235388.Mzc2MjU5ZmQtZGVjYi00MjFhLTkxYjgtNDk5YTM3N2ZmMjVkZjViNWVhYTktOTY2My00NDkxLTk5ZmQtZmVhYWFkMGQxZGZi&ui_locales=cs-CZ&mkt=cs-CZ&client-request-id=caab22d6-6c00-4aac-8b03-85dd20759951&state=iIo61JD5bzumqnnJIpBK03wLc3PLuFYWOrwB2eAhjlmsITsT8nWO2uyJA9UbyeRyOdjikstLwr67YBK-LTfqzT3NhfqvxBvM4CSeGfRmyWEHaVVZ7okWdIvVQVqcAZoRZI7fRrkGlsvWgCAceFXDjU-lHjS8EIbNCTCoJLp4bHRnqT9zzfpccEiOlzp3JVCOda8zAwLB5YmXTEKEl_0gDxkyGUPuCKewN_GXn5AaKlkE1ySq4UA3yXOLo14CevqhGzglLKYlCNKFj3qmPM1VdGhVOvatP_woBwX24RLFTSc&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=6.12.1.0&sso_reload=true" target="_blank">Office</a>
+                        <a class="dropdown-item" href="https://moodle.sspu-opava.cz/" target="_blank">Moodle</a>
+                        <a class="dropdown-item" href="https://www.sspu-opava.cz/cs/" target="_blank">SŠPU</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Stránky</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="https://iwnl-maty.github.io/web/" target="_blank">Web</a> 
+                        <a class="dropdown-item" href="https://iwnl-maty.github.io/uprava-pomoci-css/" target="_blank">Prověrka</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main class="container bg-light">
+        <div class="row">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="skola-foto/skola-banner-003.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Škola</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="skola-foto/skola-banner-005.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Škola</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="skola-foto/skola-banner-006.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Škola</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="skola-foto/skola-banner-001.jpg" alt="Čtvrtý slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Škola</h3>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <h3>První článek</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium illum molestias
+                    similique error aliquam rem id repellat quaerat. Voluptatibus iure totam quas sed, possimus adipisci
+                    earum nisi dolores libero.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Druhý článek</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium illum molestias
+                    similique error aliquam rem id repellat quaerat. Voluptatibus iure totam quas sed, possimus adipisci
+                    earum nisi dolores libero.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Třetí článek</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium illum molestias
+                    similique error aliquam rem id repellat quaerat. Voluptatibus iure totam quas sed, possimus adipisci
+                    earum nisi dolores libero.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center bg-primary p-2">
+            <div class="col-12">
+                <h2 class="text-white">Galerie</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2">
+                <a href="skola-foto/skola-big-001.jpg" data-lightbox="Škola">
+                    <img src="skola-foto/skola-iconl-003.jpg" alt="Škola" class="img-fluid">
+                </a>
+            </div>
+        </div>
+        <section class="p-5 bg-warning">
+            <div class="container">
+                <h2 class="display-3">Výlet do neznáma</h2>
+                <p></p>
+                <hr class="my-2">
+                <p>More info</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-secondary text-center border-top mt-5 ps-5 pe-5 pb-3">
+        <div class="row">
+            <div class="col-lg-2">
+                <h3 class="bg-dark">Logo</h3>
+                <p><img src="img/skola-logo.png" alt="Logo"></p>
+            </div>
+            <div class="col-lg-5 text-start">
+                <h3 class="bg-dark text-center">Kontakty</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Praskova 399/8, Opava, 746 01</li>
+                    <li class="list-group-item">+420 553 621 580</li>
+                    <li class="list-group-item">sspu@sspu-opava.cz</li>
+                </ul>
+                <h4>Školní dílny</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Janská 1849/30, Opava, 746 01</li>
+                    <li class="list-group-item">+420 734 353 923</li>
+                </ul>
+            </div>
+            <div class="col-lg-5 text-start">
+                <h3 class="bg-dark">Odkazy</h3>
+                <p><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/sspuopava" target="_blank">www.facebook.com/sspuopava</a></p>
+                <p><i class="fa-solid fa-house-chimney"></i><a href="https://www.sspu-opava.cz" target="_blank">www.sspu-opava.cz</a></p>
+                <p><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/sspu_opava" target="_blank">www.instagram.com/sspu_opava</a></p>
+            </div>
+        </div>
+        <p>&copy; 2022</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>
